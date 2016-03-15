@@ -1,0 +1,98 @@
+body {
+    background-color: #FFFFFF;
+    color: #000305;
+    font-size: 87.5%; /* Base font size is 14 px */
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* links */
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #FFFFFF;
+}
+
+a:hover, a:active {
+    color: #18bc9c;
+}
+
+.body {
+    margin: 0 auto;
+    width: 100%;
+    clear: both;
+}
+.mainHeader {
+    background-color: #153540;
+    color: white;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.mainHeader nav {
+    background-color: #153540;
+    height: auto;
+}
+
+.mainHeader nav ul {
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.mainHeader nav ul li {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+.mainHeader nav ul li a {
+    display: inline-block;
+    font-size: 17px;
+}
+
+.mainHeader nav ul li:first-child {
+    border-bottom: 1px solid darkgrey;
+}
+
+.mainHeader nav ul li:first-child a {
+    font-size: 19px;
+}
+
+.topHeader {
+    background-color: #18bc9c;
+    color: #FFFFFF;
+    text-align: center;
+}
+.topHeader img {
+    height: 200px;
+    width: 210px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.top-header-title {
+    text-transform: uppercase;
+    font-size: 2em; /* COME BACK TO THIS */
+}
+
+.top-header-subTitle {
+    
+}
+
+.portfolio {
+    color: #153540;
+}
+
+.portfolio-header-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin: 30px 0 0 0;
+}
