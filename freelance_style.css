@@ -3,7 +3,7 @@ body {
     color: #000305;
     font-size: 87.5%; /* Base font size is 14 px */
     font-family: 'Lato', sans-serif;
-    line-height: 1.5;
+    line-height: 1.6;
     text-align: left;
 }
 
@@ -31,6 +31,10 @@ a:hover, a:active {
     color: white;
     padding-left: 10px;
     text-transform: uppercase;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .mainHeader nav {
@@ -104,3 +108,47 @@ a:hover, a:active {
     display: block;
     margin: 10px auto;
 }
+
+.about {
+    background-color: #18bc9c;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+.about-header-title {
+    text-transform: uppercase;
+    font-size: 3em;
+    margin: 50px 0 0 0;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.about-body {
+    font-size: 1.3em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn {
+    text-align: center;
+    margin: 25px auto;
+}
+a.btn-green-white-border {
+    text-align: center;
+    border: 2px solid #FFFFFF;
+    border-radius: 5%;
+    padding: 15px 20px;
+    font-size: 1.3em;
+    color: #153540;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    
+}
+a.btn-green-white-border:hover {
+    background-color: #FFFFFF;
+}
+
+
+
+
+
