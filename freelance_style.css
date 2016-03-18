@@ -7,6 +7,11 @@ body {
     text-align: left;
 }
 
+.show {
+    display: inline-block;
+    width: 100%;
+}
+
 /* links */
 
 a {
@@ -37,6 +42,10 @@ a:hover, a:active {
     right: 0;
 }
 
+.logo {
+    font-size: 19px
+}
+
 .mainHeader nav {
     background-color: #153540;
     height: auto;
@@ -62,12 +71,9 @@ a:hover, a:active {
 }
 
 .mainHeader nav ul li:first-child {
-    border-bottom: 1px solid darkgrey;
+    border-top: 1px solid darkgrey;
 }
 
-.mainHeader nav ul li:first-child a {
-    font-size: 19px;
-}
 
 .topHeader {
     background-color: #18bc9c;
@@ -148,7 +154,20 @@ a.btn-green-white-border:hover {
     background-color: #FFFFFF;
 }
 
+ul {
+    display: none;
+}
 
+
+#btn-menu-dropdown {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    width: auto;
+    height: auto;
+    font-size: 19px;
+}
 
 
 
