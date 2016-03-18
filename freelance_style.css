@@ -44,7 +44,25 @@ a:hover, a:active {
 }
 
 .logo {
-    font-size: 19px
+    font-size: 19px;
+    float: left;
+}
+
+#btn-menu-dropdown {
+    display: block;
+    float: right;
+    margin: 0 10px 0 0;
+/*
+    position: absolute;
+    top: 0px;
+    right: 10px;
+*/
+    width: auto;
+    height: auto;
+    font-size: 19px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 2px 4px;
 }
 
 .mainHeader nav {
@@ -82,6 +100,7 @@ a:hover, a:active {
     text-align: center;
     float: left;
     width: 100%;
+    margin-top: 5px;
 }
 .topHeader img {
     height: 200px;
@@ -157,25 +176,20 @@ a.btn-green-white-border:hover {
     background-color: #FFFFFF;
 }
 
+.footer {
+    background-color: #153540;
+    color: #FFFFFF;
+    text-align: center;
+}
+
 ul {
     display: none;
 }
 
 
-#btn-menu-dropdown {
-    display: block;
-    position: absolute;
-    top: 0px;
-    right: 10px;
-    width: auto;
-    height: auto;
-    font-size: 19px;
-/*
-    border: 1px solid #000000;
-    border-radius: 5px;
-    padding: 2px 4px;
-*/
-}
+
+
+
 
 
 
