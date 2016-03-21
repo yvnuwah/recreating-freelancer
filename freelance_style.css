@@ -100,13 +100,14 @@ a:hover, a:active {
     text-align: center;
     float: left;
     width: 100%;
+    height: 550px;
     margin-top: 5px;
 }
 .topHeader img {
-    height: 200px;
-    width: 210px;
+    height: 255px;
+    width: 255px;
     border-radius: 50%;
-    margin: 10px auto;
+    margin: 60px auto;
 }
 
 .top-header-title {
