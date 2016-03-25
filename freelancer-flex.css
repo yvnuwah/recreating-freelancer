@@ -1,0 +1,49 @@
+body {
+    background-color: #FFFFFF;
+    color: #000305;
+    font-size: 87.5%; /* Base font size is 14 px */
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    text-align: left;
+}
+.body {
+    width: 100%;
+    margin: 0;
+}
+.header{
+    background-color: #333533;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.logo {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+#btn-menu-dropdown {
+    font-size: 40px;
+}
+
+.header .nav-bar ul {
+/*    display: none;*/
+}
+.header .nav-bar ul li {
+    list-style-type: none;
+    display: inline;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #F5CB5C;
+}
